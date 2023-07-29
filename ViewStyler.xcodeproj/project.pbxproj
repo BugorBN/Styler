@@ -13,6 +13,19 @@
 		CC91E57F2A75840F007810E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC91E57D2A75840F007810E8 /* Main.storyboard */; };
 		CC91E5812A758410007810E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC91E5802A758410007810E8 /* Assets.xcassets */; };
 		CC91E5842A758410007810E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC91E5822A758410007810E8 /* LaunchScreen.storyboard */; };
+		CC91E5912A758493007810E8 /* Stylable+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC91E5902A758493007810E8 /* Stylable+UIButton.swift */; };
+		CC91E5932A7584C7007810E8 /* Stylable+UIControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC91E5922A7584C7007810E8 /* Stylable+UIControl.swift */; };
+		CC91E5952A7584FE007810E8 /* Stylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC91E5942A7584FE007810E8 /* Stylable.swift */; };
+		CC91E5972A758531007810E8 /* Stylable+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC91E5962A758531007810E8 /* Stylable+UIView.swift */; };
+		CC91E5992A758583007810E8 /* UIView+Stylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC91E5982A758583007810E8 /* UIView+Stylable.swift */; };
+		CC91E59B2A7585E5007810E8 /* Stylable+UIDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC91E59A2A7585E5007810E8 /* Stylable+UIDatePicker.swift */; };
+		CC91E59D2A758602007810E8 /* Stylable+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC91E59C2A758602007810E8 /* Stylable+UILabel.swift */; };
+		CC91E59F2A758622007810E8 /* Stylable+UIPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC91E59E2A758622007810E8 /* Stylable+UIPageControl.swift */; };
+		CC91E5A12A75863D007810E8 /* Stylable+UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC91E5A02A75863D007810E8 /* Stylable+UIScrollView.swift */; };
+		CC91E5A32A758653007810E8 /* Stylable+UISegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC91E5A22A758653007810E8 /* Stylable+UISegmentedControl.swift */; };
+		CC91E5A52A758684007810E8 /* Stylable+UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC91E5A42A758684007810E8 /* Stylable+UIStackView.swift */; };
+		CC91E5A72A7586A3007810E8 /* Stylable+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC91E5A62A7586A3007810E8 /* Stylable+UITextField.swift */; };
+		CC91E5A92A7586BC007810E8 /* Stylable+UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC91E5A82A7586BC007810E8 /* Stylable+UITextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +37,19 @@
 		CC91E5802A758410007810E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC91E5832A758410007810E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC91E5852A758410007810E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC91E5902A758493007810E8 /* Stylable+UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stylable+UIButton.swift"; sourceTree = "<group>"; };
+		CC91E5922A7584C7007810E8 /* Stylable+UIControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stylable+UIControl.swift"; sourceTree = "<group>"; };
+		CC91E5942A7584FE007810E8 /* Stylable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stylable.swift; sourceTree = "<group>"; };
+		CC91E5962A758531007810E8 /* Stylable+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stylable+UIView.swift"; sourceTree = "<group>"; };
+		CC91E5982A758583007810E8 /* UIView+Stylable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Stylable.swift"; sourceTree = "<group>"; };
+		CC91E59A2A7585E5007810E8 /* Stylable+UIDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stylable+UIDatePicker.swift"; sourceTree = "<group>"; };
+		CC91E59C2A758602007810E8 /* Stylable+UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stylable+UILabel.swift"; sourceTree = "<group>"; };
+		CC91E59E2A758622007810E8 /* Stylable+UIPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stylable+UIPageControl.swift"; sourceTree = "<group>"; };
+		CC91E5A02A75863D007810E8 /* Stylable+UIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stylable+UIScrollView.swift"; sourceTree = "<group>"; };
+		CC91E5A22A758653007810E8 /* Stylable+UISegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stylable+UISegmentedControl.swift"; sourceTree = "<group>"; };
+		CC91E5A42A758684007810E8 /* Stylable+UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stylable+UIStackView.swift"; sourceTree = "<group>"; };
+		CC91E5A62A7586A3007810E8 /* Stylable+UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stylable+UITextField.swift"; sourceTree = "<group>"; };
+		CC91E5A82A7586BC007810E8 /* Stylable+UITextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stylable+UITextView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 		CC91E5762A75840F007810E8 /* ViewStyler */ = {
 			isa = PBXGroup;
 			children = (
+				CC91E58B2A758416007810E8 /* Styler */,
 				CC91E5772A75840F007810E8 /* AppDelegate.swift */,
 				CC91E5792A75840F007810E8 /* SceneDelegate.swift */,
 				CC91E57B2A75840F007810E8 /* ViewController.swift */,
@@ -65,6 +92,26 @@
 				CC91E5852A758410007810E8 /* Info.plist */,
 			);
 			path = ViewStyler;
+			sourceTree = "<group>";
+		};
+		CC91E58B2A758416007810E8 /* Styler */ = {
+			isa = PBXGroup;
+			children = (
+				CC91E5942A7584FE007810E8 /* Stylable.swift */,
+				CC91E5982A758583007810E8 /* UIView+Stylable.swift */,
+				CC91E5962A758531007810E8 /* Stylable+UIView.swift */,
+				CC91E5902A758493007810E8 /* Stylable+UIButton.swift */,
+				CC91E5922A7584C7007810E8 /* Stylable+UIControl.swift */,
+				CC91E59A2A7585E5007810E8 /* Stylable+UIDatePicker.swift */,
+				CC91E59C2A758602007810E8 /* Stylable+UILabel.swift */,
+				CC91E59E2A758622007810E8 /* Stylable+UIPageControl.swift */,
+				CC91E5A02A75863D007810E8 /* Stylable+UIScrollView.swift */,
+				CC91E5A22A758653007810E8 /* Stylable+UISegmentedControl.swift */,
+				CC91E5A42A758684007810E8 /* Stylable+UIStackView.swift */,
+				CC91E5A62A7586A3007810E8 /* Stylable+UITextField.swift */,
+				CC91E5A82A7586BC007810E8 /* Stylable+UITextView.swift */,
+			);
+			path = Styler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +186,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC91E57C2A75840F007810E8 /* ViewController.swift in Sources */,
+				CC91E5992A758583007810E8 /* UIView+Stylable.swift in Sources */,
+				CC91E5A52A758684007810E8 /* Stylable+UIStackView.swift in Sources */,
+				CC91E59D2A758602007810E8 /* Stylable+UILabel.swift in Sources */,
+				CC91E5952A7584FE007810E8 /* Stylable.swift in Sources */,
 				CC91E5782A75840F007810E8 /* AppDelegate.swift in Sources */,
+				CC91E5A12A75863D007810E8 /* Stylable+UIScrollView.swift in Sources */,
+				CC91E59F2A758622007810E8 /* Stylable+UIPageControl.swift in Sources */,
 				CC91E57A2A75840F007810E8 /* SceneDelegate.swift in Sources */,
+				CC91E5912A758493007810E8 /* Stylable+UIButton.swift in Sources */,
+				CC91E5A72A7586A3007810E8 /* Stylable+UITextField.swift in Sources */,
+				CC91E5932A7584C7007810E8 /* Stylable+UIControl.swift in Sources */,
+				CC91E5A92A7586BC007810E8 /* Stylable+UITextView.swift in Sources */,
+				CC91E5A32A758653007810E8 /* Stylable+UISegmentedControl.swift in Sources */,
+				CC91E59B2A7585E5007810E8 /* Stylable+UIDatePicker.swift in Sources */,
+				CC91E5972A758531007810E8 /* Stylable+UIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
